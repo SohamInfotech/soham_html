@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            width: 200px;
+            height: 70px;
+            background: transparent;
+            font-size: 30px;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            border: solid black;
+            border-radius: 20PX;
+        }
+
+        .b1 {
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+        }
+
+        #btn {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="b1">
+        <button style="background-color: red; color: white;" id="btn" onclick="color('red')">Red</button>
+        <button style="background-color: black;color: white;" id="btn" onclick="color('black')">Black</button>
+        <button style="background-color: yellow;color: black;" id="btn" onclick="color('yellow')">Yellow</button>
+        <button style="background-color: green; color: white;" id="btn" onclick="color('green')">Green</button>
+        <button style="background-color: blue; color: white;" id="btn" onclick="color('blue')">Blue</button>
+        <button style="background-color: aqua; color: black;" id="btn" onclick="color('aqua')">Aqua</button>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

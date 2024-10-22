@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js"></script>
+    <style>
+        .bu {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            margin-left: 300px;
+        }
+
+        .b1 {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            border-radius: 20px;
+            font-size: 50px;
+        }
+
+        h1 {
+            /* margin-left: 470px; */
+            /* margin: auto; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .reset {
+            width: 130px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+            font-size: 20px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .m1 {
+            width: 100%;
+            display: flex;
+        }
+
+        .m2 {
+            width: 100%;
+            display: flex;
+        }
+
+        .bb1 {
+            width: 200px;
+            background-color: black;
+            color: white;
+            margin-left: 300px;
+            height: 20px;
+            /* border-radius: 3px; */
+            border: none;
+            /* font-size: 10px; */
+        }
+
+        .b2 {
+            width: 200px;
+            margin-left: 300px;
+            height: 100px;
+            background-color: black;
+            color: white;
+            font-size: 50px;
+            /* border-radius: 3px; */
+            border: none;
+            border-bottom: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m1">
+        <button class="bb1">player 1</button>
+        <button class="bb1">player 2</button>
+    </div>
+    <div class="m2">
+        <button class="b2">X</button>
+        <button class="b2">0</button>
+    </div>
+    <h1>TIK TAK GAME</h1>
+    <div class="bu">
+        <button id="id1" class="b1" onclick="so(this)"></button>
+        <button id="id2" class="b1" onclick="so(this)"></button>
+        <button id="id3" class="b1" onclick="so(this)"></button>
+        <button id="id4" class="b1" onclick="so(this)"></button>
+        <button id="id5" class="b1" onclick="so(this)"></button>
+        <button id="id6" class="b1" onclick="so(this)"></button>
+        <button id="id7" class="b1" onclick="so(this)"></button>
+        <button id="id8" class="b1" onclick="so(this)"></button>
+        <button id="id9" class="b1" onclick="so(this)"></button>
+    </div>
+    <div class="reset" onclick="riset()">RESET
+        <!-- <button class="reset" onclick="riset()">RESET</button> -->
+    </div>
+</body>
+
+</html>

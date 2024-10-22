@@ -1,0 +1,67 @@
+.nav-link:hover {
+    color: #f1b94d !important;
+}
+
+.nav-link {
+    margin: 10PX;
+}
+
+.nav-item {
+    font-size: 17px;
+}
+
+.btn1 {
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+
+.so {
+    padding-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.so:hover {
+    background-color: #f1b94d;
+    width: 100%;
+    height: 35px;
+    transition: all 0.3s ease-in-out;
+}
+
+.s1 {
+    background-image: url(1.jpg);
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+}
+
+.fa-solid {
+    color: #f1b94d;
+    font-size: 40PX;
+    padding: 20px 27PX;
+    margin: auto;
+}
+
+.col-x1-2 {
+    flex: 0 0 auto;
+}
+
+.f1 {
+    text-align: center;
+    font-size: 55px;
+}
+.btn{
+    width: 150px;
+}
+body{
+    position: relative;
+    height: 100%;
+}
+.cbg-img{
+    background-image: url(https://bootstrapmade.com/demo/templates/Gp/assets/img/cta-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
